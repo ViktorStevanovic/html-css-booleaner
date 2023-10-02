@@ -1,0 +1,35 @@
+body{
+    font-weight: 400;
+}
+
+header{
+    background-color: rgb(86, 173, 253);
+    background-image: url(/imgs/pattern.png);
+    background-size: contain;
+    height: 100px;
+}
+
+.logo-booleaner{
+    width: 200px;
+    padding-top: 50px;
+}
+
+.main-title {
+    margin-bottom: 0;
+}
+
+.author{
+    margin-top: 0;
+    color: gray;
+}
+.text-blue{
+    color: blue;
+}
+.text-highlighted{
+    background-color: yellow;
+}
+
+.small-text {
+    font-weight: 400;
+}
+
