@@ -1,14 +1,17 @@
 body{
-    font-weight: 400;
+    width: 1100px;
 }
 
 header{
-    background-color: rgb(86, 173, 253);
     background-image: url(/imgs/pattern.png);
     background-size: contain;
     height: 100px;
+    
 }
-
+thead, header{
+    background-color: rgb(86, 173, 253);
+    color: white;
+}
 .logo-booleaner{
     width: 200px;
     padding-top: 50px;
@@ -18,18 +21,46 @@ header{
     margin-bottom: 0;
 }
 
-.author{
-    margin-top: 0;
+.text-gray,.author{
     color: gray;
 }
+.author,.small-text{
+    margin-top: 0;
+}
 .text-blue{
-    color: blue;
+    color: rgb(86, 173, 253);
+}
+.colored-row{
+    background-color: rgb(157, 229, 253);
 }
 .text-highlighted{
     background-color: yellow;
 }
 
 .small-text {
-    font-weight: 400;
+    font-size: small;
 }
 
+th{
+    text-align: left;
+    width: 800px;
+}
+table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h2 {
+    color: white;
+}
+
+.footer-image1,.footer-image2{
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+}
+.footer-image1{
+    background-image: url(/imgs/monitor.jpg);
+}
+.footer-image2{
+    background-image: url(/imgs/graph.jpg);
+}
